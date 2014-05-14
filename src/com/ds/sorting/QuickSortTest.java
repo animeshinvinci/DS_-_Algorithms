@@ -1,5 +1,5 @@
 /* 
- * Copyright (c) 2014 by Cisco Systems, Inc.
+ * Copyright (c) 2014 
  *
  * animishr
  *
