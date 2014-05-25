@@ -34,5 +34,7 @@ public class QuickSortTestNg {
 		 quick.setEnd(dataArr.length-1);
 		 Integer[] arr = quick.sort();
 		 Assert.assertArrayEquals(sorteddataArr, arr);
+		 assert 1==3;
+		 
 	 }
 }

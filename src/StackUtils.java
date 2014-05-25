@@ -11,9 +11,8 @@ public class StackUtils {
 	public static void main(String[] args) {
 		Stack<String> stack = new Stack<String>();
 		stack.push("ani");
-		
-		
+		stack.push("mishra");
+		System.out.println(stack.pop());
+		System.out.println(stack.peek());
 	}
- 
-	
-}
+ }
