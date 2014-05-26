@@ -47,6 +47,26 @@ public class StringUtils {
 		return revStr;
 		}
 	
+	
+	
+	/* Left Trim of String
+    * 
+	* 	
+	*/
+	public static String leftTrim(){
+		
+		return "";
+	}
+	
+	/* Right Trim of String
+	 * 
+	 * 	
+	 */
+	public static String rightTrim(){
+		
+		return "";
+	}
+	
 	public static void main(String[] args) {
 		System.out.println(StringUtils.isPalindrome("121"));
 		String s = "animesh";
