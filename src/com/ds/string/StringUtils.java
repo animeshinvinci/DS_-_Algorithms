@@ -1,6 +1,7 @@
 package com.ds.string;
 
 import java.util.Stack;
+import java.util.regex.Pattern;
 
 public class StringUtils {
 	
@@ -53,18 +54,18 @@ public class StringUtils {
     * 
 	* 	
 	*/
-	public static String leftTrim(){
-		
-		return "";
+	public static String leftTrim(String input){
+		String pattern = "^\\s";
+		return input.replaceAll(pattern, "");
 	}
 	
 	/* Right Trim of String
 	 * 
 	 * 	
 	 */
-	public static String rightTrim(){
-		
-		return "";
+	public static String rightTrim(String input){
+		String pattern = "\\s$";
+		return input.replaceAll(pattern, "");
 	}
 	
 	public static void main(String[] args) {
@@ -75,6 +76,13 @@ public class StringUtils {
 		System.out.println(e);
 		
 		System.out.println(reverseString(s));
+		
+		String lr = " ae   er   tr    tr ";
+		System.out.println(lr.length());
+		System.out.println(leftTrim(lr)+ "!!");
+		
+		System.out.println(rightTrim(lr) + "!!");
+		
 	}
   
 }

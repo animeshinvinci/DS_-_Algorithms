@@ -12,5 +12,10 @@ public class App {
 		for(char s:li){
 			System.out.println(s);
 		}
+		LinkedList<Integer> numList = new LinkedList<Integer>();
+		numList.add(1);
+		numList.addLast(2);
+		numList.addLast(3);
+		numList.addLast(4);
 	}
 }
